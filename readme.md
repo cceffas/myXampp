@@ -1,7 +1,7 @@
 
 #myXampp
 
-![image](textLogo.png)
+![image](textLogo.svg)
 
 "A modern and responsive interface that optimizes your productivity by making it easier to access projects in the XAMPP htdocs folder."
 
