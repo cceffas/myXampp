@@ -50,7 +50,7 @@
 
 				<?php foreach ($folders as $folder): ?>
 					<a href="<?=$uri.'localhost/'.$folder?>" class="flex items-center gap-2 p-2 h-8 border-b-2 border-b-slate-300 hover:bg-slate-200">
-						<i class="bi bi-folder-symlink-fill"></i><?php echo $folder?>
+						<i class="bi bi-folder-symlink-fill text-xl text-sky-400"></i><?php echo $folder?>
 
 						</a>
 				<?php endforeach?>
