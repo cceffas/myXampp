@@ -1,4 +1,4 @@
-<header  class=" flex items-center justify-center w-full h-16  bg-slate-200" id="header">
+<header  class=" flex items-center justify-center w-full h-16  text-white" id="header">
 	
 	<div class="container flex justify-between items-center">
 
@@ -6,13 +6,10 @@
 
 		<nav>
 			<ul class="flex gap-6">
-				<li><a href="" class=''>Apache friends</a></li>
-				<li><a href="" class=''>faqs</a></li>
-				<li><a href="" class=''>how-to guides</a></li>
-				<li><a href="" class=''>phpInfo</a></li>
-				<li><a href="" class=''>phpMyAdmin</a></li>
+				<li><a href="/dashboard" target="_blank" class=''>Dashboard</a></li>
 			</ul>
 		</nav>
+		<!-- end -->
 		
 	</div>
 

@@ -2,7 +2,7 @@
     "name": "devcefas/my-xampp",
     "autoload": {
         "psr-4": {
-            "Devcefas\\MyXampp\\": "src/"
+            "app\\": "src/"
         }
     },
     "authors": [
