@@ -4,7 +4,7 @@
 "A modern and responsive interface that optimizes your productivity by making it easier to access projects in the XAMPP htdocs folder."
 <hr>
 <h2>screenshots</h2>
-![alt](public/images/screen.png)
+![alt](/public/images/screen.png)
 
 
 <h3>features</h3>
