@@ -1,21 +1,18 @@
 
-#myXampp
-
-![image](icon.svg)
+<h1>myXampp</h1>
 
 "A modern and responsive interface that optimizes your productivity by making it easier to access projects in the XAMPP htdocs folder."
+<hr>
+<h2>screenshots</h2>
+[screenshots](public/images/screen.png)
 
 
-
-##screenshots
-
-
-###features
+<h3>features</h3>
 
 - Automatic listing of projects in `htdocs`
 - Quick access via click
 
-####how to use
+<h4>how to use</h4>
 
 -download the project
 -move myXampp folder to htdocs directory of xampp server
