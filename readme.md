@@ -1,7 +1,10 @@
 
 <h1>myXampp</h1>
-
+<img src='/public/images/en.png' alt='en translation'>
 "A modern and responsive interface that optimizes your productivity by making it easier to access projects in the XAMPP htdocs folder."
+<hr>
+<img src='/public/images/pt.png' alt='en translation'>
+"Uma interface moderna e responsiva que otimiza sua produtividade facilitando o acesso a projetos na pasta htdocs do XAMPP."
 <hr>
 <h2>screenshots</h2>
 <img src='/public/images/screen.png' alt='screen capture'>

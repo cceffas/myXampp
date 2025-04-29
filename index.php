@@ -8,9 +8,9 @@ $uri     = "http://";
 $path    = '../';
 $folders = scandir($path);
 
-$folder_main= explode('/',__DIR__);
-$folder_main=$folder_main[sizeof($folder_main)-1];
-$path_root = str_replace($folder_main,'', __DIR__);
+$folder_main = explode('/', __DIR__);
+$folder_main = $folder_main[sizeof($folder_main) - 1];
+$path_root = str_replace($folder_main, '', __DIR__);
 
 
 ?>
@@ -37,11 +37,12 @@ $path_root = str_replace($folder_main,'', __DIR__);
 
 	<main class="container grow">
 		<!-- first -->
-		<section class="flex items-center justify-center flex-wrap mt-20 text-4xl gap-2 p-2">
+		<section class="flex flex-col items-center justify-center flex-wrap mt-20 text-4xl gap-2 p-2">
 			<div class="flex flex-col items-center gap-2">
-				<h1 class="font-bold text-slate-600">Welcome to MYXAMPP</h1>
-				<p class="text-lg text-slate-600">A modern and responsive interface that optimizes your productivity by making it easier to access projects in the XAMPP htdocs folder</p>
+				<h1 class="font-bold text-slate-600"><?php echo $app_lang->title_intro ?></h1>
+				<p class="text-lg text-slate-600"><?php echo $app_lang->descriction ?></p>
 			</div>
+
 		</section>
 		<!-- end -->
 
@@ -69,7 +70,7 @@ $path_root = str_replace($folder_main,'', __DIR__);
 
 							<a href="<?php echo $uri . 'localhost/' . $folder ?>" target="_blank" class="flex items-center gap-2 p-2 h-8 border-b-2 grow border-b-slate-800 hover:bg-slate-800/50" id="item-project">
 								<i class="bi bi-folder-fill text-2xl text-indigo-400"></i><?php echo $folder; ?>
-								
+
 							</a>
 						<?php endif ?>
 

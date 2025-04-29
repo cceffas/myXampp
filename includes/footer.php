@@ -3,7 +3,7 @@
 
 	<div class="container flex items-center justify-center text-slate-600">
 		<a href="devcefas@gmail.com">
-			&COPY; 2025 devcefas@gmail.com | All rights reserved
+			&COPY; <?php echo $app_lang->footer_text; ?>
 		</a>
 	</div>
 
