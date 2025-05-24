@@ -1,6 +1,6 @@
 <?php
 $app_name = "myXampp";
-$app_version = "v0.4";
+$app_version = "v0.8";
 $lang_ico = 'en';
 $lang_text = 'en';
 $app_lang = [];

@@ -5,12 +5,10 @@
 
 		<div class="flex gap-2 items-center">
 
-			<span class="text-indigo-400 capitalize"><?php echo $app_name ?></span>
+			<span class="text-orange-400 capitalize"><?php echo $app_name ?></span>
 			<span class="text-sm"><?php echo $app_version ?></span>
 
 		</div>
-
-
 
 		<nav>
 			<form action="globals.php" method="post" id="change-lang">
@@ -28,10 +26,10 @@
 
 								<?php else: ?>
 									<option class="bg-black w-8 text-center border-none outline-none appearance-none" value='en' selected>en</option>
-									<option class="bg-black w-8 text-center border-none outline-none appearance-none" value="pt" >pt</option>
+									<option class="bg-black w-8 text-center border-none outline-none appearance-none" value="pt">pt</option>
 								<?php endif ?>
-							
-								
+
+
 							</select>
 						</div>
 					</li>
@@ -39,7 +37,7 @@
 					<li>|</li>
 					<li>
 						<a href="https://github.com/cceffas/myXampp" target="_blank" class='flex items-center justify-center gap-2'>
-							<i class="bi bi-github"></i> github</a>
+							<i class="ri-github-fill"></i> github</a>
 					</li>
 
 				</ul>

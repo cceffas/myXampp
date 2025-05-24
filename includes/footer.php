@@ -1,8 +1,8 @@
-<footer class="flex items-center justify-center w-full min-h-16 bg-slate-950/50 z-10">
+<footer class="flex items-center justify-center w-full min-h-16 bg-neutral-950/50 z-10">
 
 
-	<div class="container flex items-center justify-center text-slate-600">
-		<a href="devcefas@gmail.com">
+	<div class="container flex items-center justify-center text-neutral-600">
+		<a href="mailto:devcefas@gmail.com">
 			&COPY; <?php echo $app_lang->footer_text; ?>
 		</a>
 	</div>
