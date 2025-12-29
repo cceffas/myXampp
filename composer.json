@@ -1,0 +1,16 @@
+{
+    "name": "devcefas/my-xampp",
+    "autoload": {
+        "files": ["resources/helpers/helpers.php"],
+        "psr-4": {
+            "MyXampp\\": "resources/"
+        }
+    },
+    "authors": [
+        {
+            "name": "devcefas",
+            "email": "devcefas@gmail.com"
+        }
+    ],
+    "require": {}
+}
