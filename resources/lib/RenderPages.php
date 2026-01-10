@@ -19,15 +19,12 @@ final class RenderPages
         $this->routes = require_once __DIR__ . "/../routes/routes.php";
     }
 
-
     public function routeSystem()
     {
 
         $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $method = $_SERVER['REQUEST_METHOD'];
         $fileName = "test";
-
-
 
         if (key_exists($uri, $this->routes[$method])) {
 
@@ -44,8 +41,6 @@ final class RenderPages
             }
 
         }
-
-
 
         return (string) $fileName;
 
